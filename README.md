@@ -23,7 +23,7 @@ In terms extensibility, it's always better to think that in the future we might 
 **Things might not work, but can easily be fixed**
 
 - Yes I know that this might not behave well on Microsoft Windows hosts because of it's different path addresation nature.
-- If some item in the three was expanded and we decide to rename it or some of it's contents then it's collapsed, which is not nice. That's something I'm aware of, but handling such case would require more a bit more effort, which is I think not that important for our showcase.
+- If some item in the tree was expanded and we decide to rename it or some of it's contents then it's collapsed, which is not nice. That's something I'm aware of, but handling such case would require a bit more effort, which is I think not that important for our showcase.
 
 
 # Build & Run
