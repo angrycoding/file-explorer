@@ -2,6 +2,22 @@
 
 Node.JS, React, Socket.IO, React Context.
 
+# F.A.Q.
+
+**Why Socket.IO ?**
+
+Of course I could use some fancy stream API (which is included in fetch), or some other more or less complex solution, but Socket.IO is popular way to solve that, however I wouldn't use it in the real life. But don't forget, it's just a show case :)
+
+**Why use React Context API ?**
+
+In terms extensibility, it's always better to think that in the future we might need to extend our app with some other information, so Context usage is there just as a showcase of extensibility. Of course this particular app could be made without it.
+
+**Things might not work, but can easily be fixed**
+
+- Yes I know that this might not behave well on Microsoft Windows hosts because of it's different path addresation nature.
+- If some item in the three was expanded and we decide to rename it or some of it's contents then it's collapsed, which is not nice. That's something I'm aware of, but handling such case would require more a bit more effort, which is I think not that important for our showcase.
+
+
 # Build & Run
 
 - Clone the repository
