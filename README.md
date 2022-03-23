@@ -4,7 +4,7 @@ Node.JS, React, Socket.IO, React Context.
 
 **How it works**
 
-On the initial load we ask server to give as the list of the root directories, after that is received we render them as top level elements in our treeView. When user clicks on of the elements in the tree view, we ask server to give as the contents of the directory we request.
+On the initial load we ask server to give us the list of the root directories, after that is received we render them as top level elements in our treeView. When user clicks on of the elements in the tree view, we ask server to give as the contents of the directory we request.
 
 In the mean time there is file modification watch process on the backend, whenever some change occur, we sent that event into the browser. When React app in the browser receives such event, it adds or removes items from it's view accordingly.
 
